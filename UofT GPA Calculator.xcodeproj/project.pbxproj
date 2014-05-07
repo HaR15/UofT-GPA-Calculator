@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66CBADA91919D12500208BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADA81919D12500208BA4 /* Foundation.framework */; };
+		66CBADAB1919D12500208BA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADAA1919D12500208BA4 /* CoreGraphics.framework */; };
+		66CBADAD1919D12500208BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADAC1919D12500208BA4 /* UIKit.framework */; };
+		66CBADB31919D12500208BA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADB11919D12500208BA4 /* InfoPlist.strings */; };
+		66CBADB51919D12500208BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBADB41919D12500208BA4 /* main.m */; };
+		66CBADB91919D12500208BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBADB81919D12500208BA4 /* AppDelegate.m */; };
+		66CBADBC1919D12500208BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADBA1919D12500208BA4 /* Main.storyboard */; };
+		66CBADBF1919D12500208BA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBADBE1919D12500208BA4 /* ViewController.m */; };
+		66CBADC11919D12600208BA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADC01919D12600208BA4 /* Images.xcassets */; };
+		66CBADC81919D12600208BA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADC71919D12600208BA4 /* XCTest.framework */; };
+		66CBADC91919D12600208BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADA81919D12500208BA4 /* Foundation.framework */; };
+		66CBADCA1919D12600208BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADAC1919D12500208BA4 /* UIKit.framework */; };
+		66CBADD21919D12600208BA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADD01919D12600208BA4 /* InfoPlist.strings */; };
+		66CBADD41919D12600208BA4 /* UofT_GPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBADD31919D12600208BA4 /* UofT_GPA_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CBADCB1919D12600208BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CBAD9D1919D12500208BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CBADA41919D12500208BA4;
+			remoteInfo = "UofT GPA Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66CBADA51919D12500208BA4 /* UofT GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UofT GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CBADA81919D12500208BA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66CBADAA1919D12500208BA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66CBADAC1919D12500208BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66CBADB01919D12500208BA4 /* UofT GPA Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UofT GPA Calculator-Info.plist"; sourceTree = "<group>"; };
+		66CBADB21919D12500208BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66CBADB41919D12500208BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66CBADB61919D12500208BA4 /* UofT GPA Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UofT GPA Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		66CBADB71919D12500208BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66CBADB81919D12500208BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66CBADBB1919D12500208BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66CBADBD1919D12500208BA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66CBADBE1919D12500208BA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66CBADC01919D12600208BA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66CBADC61919D12600208BA4 /* UofT GPA CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UofT GPA CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CBADC71919D12600208BA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66CBADCF1919D12600208BA4 /* UofT GPA CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UofT GPA CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		66CBADD11919D12600208BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66CBADD31919D12600208BA4 /* UofT_GPA_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UofT_GPA_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CBADA21919D12500208BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBADAB1919D12500208BA4 /* CoreGraphics.framework in Frameworks */,
+				66CBADAD1919D12500208BA4 /* UIKit.framework in Frameworks */,
+				66CBADA91919D12500208BA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBADC31919D12600208BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBADC81919D12600208BA4 /* XCTest.framework in Frameworks */,
+				66CBADCA1919D12600208BA4 /* UIKit.framework in Frameworks */,
+				66CBADC91919D12600208BA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66CBAD9C1919D12500208BA4 = {
+			isa = PBXGroup;
+			children = (
+				66CBADAE1919D12500208BA4 /* UofT GPA Calculator */,
+				66CBADCD1919D12600208BA4 /* UofT GPA CalculatorTests */,
+				66CBADA71919D12500208BA4 /* Frameworks */,
+				66CBADA61919D12500208BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66CBADA61919D12500208BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CBADA51919D12500208BA4 /* UofT GPA Calculator.app */,
+				66CBADC61919D12600208BA4 /* UofT GPA CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CBADA71919D12500208BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66CBADA81919D12500208BA4 /* Foundation.framework */,
+				66CBADAA1919D12500208BA4 /* CoreGraphics.framework */,
+				66CBADAC1919D12500208BA4 /* UIKit.framework */,
+				66CBADC71919D12600208BA4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66CBADAE1919D12500208BA4 /* UofT GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				66CBADB71919D12500208BA4 /* AppDelegate.h */,
+				66CBADB81919D12500208BA4 /* AppDelegate.m */,
+				66CBADBA1919D12500208BA4 /* Main.storyboard */,
+				66CBADBD1919D12500208BA4 /* ViewController.h */,
+				66CBADBE1919D12500208BA4 /* ViewController.m */,
+				66CBADC01919D12600208BA4 /* Images.xcassets */,
+				66CBADAF1919D12500208BA4 /* Supporting Files */,
+			);
+			path = "UofT GPA Calculator";
+			sourceTree = "<group>";
+		};
+		66CBADAF1919D12500208BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66CBADB01919D12500208BA4 /* UofT GPA Calculator-Info.plist */,
+				66CBADB11919D12500208BA4 /* InfoPlist.strings */,
+				66CBADB41919D12500208BA4 /* main.m */,
+				66CBADB61919D12500208BA4 /* UofT GPA Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66CBADCD1919D12600208BA4 /* UofT GPA CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				66CBADD31919D12600208BA4 /* UofT_GPA_CalculatorTests.m */,
+				66CBADCE1919D12600208BA4 /* Supporting Files */,
+			);
+			path = "UofT GPA CalculatorTests";
+			sourceTree = "<group>";
+		};
+		66CBADCE1919D12600208BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66CBADCF1919D12600208BA4 /* UofT GPA CalculatorTests-Info.plist */,
+				66CBADD01919D12600208BA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CBADA41919D12500208BA4 /* UofT GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CBADD71919D12600208BA4 /* Build configuration list for PBXNativeTarget "UofT GPA Calculator" */;
+			buildPhases = (
+				66CBADA11919D12500208BA4 /* Sources */,
+				66CBADA21919D12500208BA4 /* Frameworks */,
+				66CBADA31919D12500208BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UofT GPA Calculator";
+			productName = "UofT GPA Calculator";
+			productReference = 66CBADA51919D12500208BA4 /* UofT GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CBADC51919D12600208BA4 /* UofT GPA CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CBADDA1919D12600208BA4 /* Build configuration list for PBXNativeTarget "UofT GPA CalculatorTests" */;
+			buildPhases = (
+				66CBADC21919D12600208BA4 /* Sources */,
+				66CBADC31919D12600208BA4 /* Frameworks */,
+				66CBADC41919D12600208BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CBADCC1919D12600208BA4 /* PBXTargetDependency */,
+			);
+			name = "UofT GPA CalculatorTests";
+			productName = "UofT GPA CalculatorTests";
+			productReference = 66CBADC61919D12600208BA4 /* UofT GPA CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CBAD9D1919D12500208BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Haris Shoaib";
+				TargetAttributes = {
+					66CBADC51919D12600208BA4 = {
+						TestTargetID = 66CBADA41919D12500208BA4;
+					};
+				};
+			};
+			buildConfigurationList = 66CBADA01919D12500208BA4 /* Build configuration list for PBXProject "UofT GPA Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66CBAD9C1919D12500208BA4;
+			productRefGroup = 66CBADA61919D12500208BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CBADA41919D12500208BA4 /* UofT GPA Calculator */,
+				66CBADC51919D12600208BA4 /* UofT GPA CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CBADA31919D12500208BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBADC11919D12600208BA4 /* Images.xcassets in Resources */,
+				66CBADB31919D12500208BA4 /* InfoPlist.strings in Resources */,
+				66CBADBC1919D12500208BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBADC41919D12600208BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBADD21919D12600208BA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CBADA11919D12500208BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBADBF1919D12500208BA4 /* ViewController.m in Sources */,
+				66CBADB91919D12500208BA4 /* AppDelegate.m in Sources */,
+				66CBADB51919D12500208BA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBADC21919D12600208BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBADD41919D12600208BA4 /* UofT_GPA_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CBADCC1919D12600208BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CBADA41919D12500208BA4 /* UofT GPA Calculator */;
+			targetProxy = 66CBADCB1919D12600208BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66CBADB11919D12500208BA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CBADB21919D12500208BA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66CBADBA1919D12500208BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CBADBB1919D12500208BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66CBADD01919D12600208BA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CBADD11919D12600208BA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66CBADD51919D12600208BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66CBADD61919D12600208BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66CBADD81919D12600208BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UofT GPA Calculator/UofT GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "UofT GPA Calculator/UofT GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66CBADD91919D12600208BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UofT GPA Calculator/UofT GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "UofT GPA Calculator/UofT GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66CBADDB1919D12600208BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UofT GPA Calculator.app/UofT GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UofT GPA Calculator/UofT GPA Calculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UofT GPA CalculatorTests/UofT GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66CBADDC1919D12600208BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UofT GPA Calculator.app/UofT GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UofT GPA Calculator/UofT GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "UofT GPA CalculatorTests/UofT GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CBADA01919D12500208BA4 /* Build configuration list for PBXProject "UofT GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBADD51919D12600208BA4 /* Debug */,
+				66CBADD61919D12600208BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CBADD71919D12600208BA4 /* Build configuration list for PBXNativeTarget "UofT GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBADD81919D12600208BA4 /* Debug */,
+				66CBADD91919D12600208BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66CBADDA1919D12600208BA4 /* Build configuration list for PBXNativeTarget "UofT GPA CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBADDB1919D12600208BA4 /* Debug */,
+				66CBADDC1919D12600208BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66CBAD9D1919D12500208BA4 /* Project object */;
+}
