@@ -21,6 +21,14 @@
 		66CBADCA1919D12600208BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBADAC1919D12500208BA4 /* UIKit.framework */; };
 		66CBADD21919D12600208BA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADD01919D12600208BA4 /* InfoPlist.strings */; };
 		66CBADD41919D12600208BA4 /* UofT_GPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBADD31919D12600208BA4 /* UofT_GPA_CalculatorTests.m */; };
+		66CBADDE191A08C000208BA4 /* ID-100236787.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADDD191A08C000208BA4 /* ID-100236787.jpg */; };
+		66CBADE0191A138D00208BA4 /* ID-100175858.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADDF191A138D00208BA4 /* ID-100175858.jpg */; };
+		66CBADE2191A14AB00208BA4 /* ID-100163458.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADE1191A14AB00208BA4 /* ID-100163458.jpg */; };
+		66CBADE6191A16C200208BA4 /* Vintage Grunge Textures 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADE5191A16C200208BA4 /* Vintage Grunge Textures 25.jpg */; };
+		66CBADEA191A1DFD00208BA4 /* ID-10024468.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADE9191A1DFC00208BA4 /* ID-10024468.jpeg */; };
+		66CBADEC191A924300208BA4 /* 600px-000080_Navy_Blue_Square.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADEB191A924300208BA4 /* 600px-000080_Navy_Blue_Square.svg.png */; };
+		66CBADEE191A9E6900208BA4 /* UofT_Faculty_of_Law_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADED191A9E6900208BA4 /* UofT_Faculty_of_Law_logo1.png */; };
+		66CBADF0191AA0A200208BA4 /* UofT_Faculty_of_Law_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CBADEF191AA0A200208BA4 /* UofT_Faculty_of_Law_logo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		66CBADCF1919D12600208BA4 /* UofT GPA CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UofT GPA CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		66CBADD11919D12600208BA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66CBADD31919D12600208BA4 /* UofT_GPA_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UofT_GPA_CalculatorTests.m; sourceTree = "<group>"; };
+		66CBADDD191A08C000208BA4 /* ID-100236787.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ID-100236787.jpg"; path = "../../../ID-100236787.jpg"; sourceTree = "<group>"; };
+		66CBADDF191A138D00208BA4 /* ID-100175858.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ID-100175858.jpg"; path = "../../../ID-100175858.jpg"; sourceTree = "<group>"; };
+		66CBADE1191A14AB00208BA4 /* ID-100163458.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ID-100163458.jpg"; path = "../../../ID-100163458.jpg"; sourceTree = "<group>"; };
+		66CBADE5191A16C200208BA4 /* Vintage Grunge Textures 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Vintage Grunge Textures 25.jpg"; path = "../../../wooden_texture_hd_picture_170654/Vintage Grunge Textures 25.jpg"; sourceTree = "<group>"; };
+		66CBADE9191A1DFC00208BA4 /* ID-10024468.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ID-10024468.jpeg"; path = "../../../ID-10024468.jpeg"; sourceTree = "<group>"; };
+		66CBADEB191A924300208BA4 /* 600px-000080_Navy_Blue_Square.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "600px-000080_Navy_Blue_Square.svg.png"; path = "../../../600px-000080_Navy_Blue_Square.svg.png"; sourceTree = "<group>"; };
+		66CBADED191A9E6900208BA4 /* UofT_Faculty_of_Law_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UofT_Faculty_of_Law_logo1.png; path = ../../../UofT_Faculty_of_Law_logo1.png; sourceTree = "<group>"; };
+		66CBADEF191AA0A200208BA4 /* UofT_Faculty_of_Law_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UofT_Faculty_of_Law_logo2.png; path = ../../../UofT_Faculty_of_Law_logo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +143,14 @@
 			isa = PBXGroup;
 			children = (
 				66CBADB01919D12500208BA4 /* UofT GPA Calculator-Info.plist */,
+				66CBADEF191AA0A200208BA4 /* UofT_Faculty_of_Law_logo2.png */,
+				66CBADED191A9E6900208BA4 /* UofT_Faculty_of_Law_logo1.png */,
+				66CBADE5191A16C200208BA4 /* Vintage Grunge Textures 25.jpg */,
+				66CBADEB191A924300208BA4 /* 600px-000080_Navy_Blue_Square.svg.png */,
+				66CBADE9191A1DFC00208BA4 /* ID-10024468.jpeg */,
+				66CBADDF191A138D00208BA4 /* ID-100175858.jpg */,
+				66CBADE1191A14AB00208BA4 /* ID-100163458.jpg */,
+				66CBADDD191A08C000208BA4 /* ID-100236787.jpg */,
 				66CBADB11919D12500208BA4 /* InfoPlist.strings */,
 				66CBADB41919D12500208BA4 /* main.m */,
 				66CBADB61919D12500208BA4 /* UofT GPA Calculator-Prefix.pch */,
@@ -229,8 +253,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CBADC11919D12600208BA4 /* Images.xcassets in Resources */,
+				66CBADF0191AA0A200208BA4 /* UofT_Faculty_of_Law_logo2.png in Resources */,
+				66CBADEC191A924300208BA4 /* 600px-000080_Navy_Blue_Square.svg.png in Resources */,
+				66CBADE2191A14AB00208BA4 /* ID-100163458.jpg in Resources */,
 				66CBADB31919D12500208BA4 /* InfoPlist.strings in Resources */,
 				66CBADBC1919D12500208BA4 /* Main.storyboard in Resources */,
+				66CBADDE191A08C000208BA4 /* ID-100236787.jpg in Resources */,
+				66CBADE6191A16C200208BA4 /* Vintage Grunge Textures 25.jpg in Resources */,
+				66CBADEE191A9E6900208BA4 /* UofT_Faculty_of_Law_logo1.png in Resources */,
+				66CBADE0191A138D00208BA4 /* ID-100175858.jpg in Resources */,
+				66CBADEA191A1DFD00208BA4 /* ID-10024468.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
